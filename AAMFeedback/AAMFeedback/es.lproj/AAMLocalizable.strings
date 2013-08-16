@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  AAMFeedbackViewController
+
+  Created by Eric Ertl on 07/10/13.
+*/
+
+//Navigation Controller Elements
+"AAMFeedbackTitle" = "Comentarios";
+"AAMFeedbackTopicsTitle" = "Temas";
+
+"AAMFeedbackButtonMail" = "Mail";
+"AAMFeedbackDescriptionPlaceholder" = "Por favor, escriba los detalles.";
+
+//Table Headers
+"AAMFeedbackTableHeaderTopics" = "Por favor, complete";
+"AAMFeedbackTableHeaderBasicInfo" = "Tu Entorno";
+
+//Topics Options
+"AAMFeedbackTopicsQuestion" = "Pregunta";
+"AAMFeedbackTopicsRequest" = "Solicitud";
+"AAMFeedbackTopicsBugReport" = "Informar de un error";
+"AAMFeedbackTopicsMedia" = "Medios de comunicación";
+"AAMFeedbackTopicsBusiness" = "Negocios";
+"AAMFeedbackTopicsOther" = "Otros";
+
+"AAMFeedbackMailDidFinishWithError" = "No se pudo enviar sus comentarios. Por favor, inténtelo más tarde.";

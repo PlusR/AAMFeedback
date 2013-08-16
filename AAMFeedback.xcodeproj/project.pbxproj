@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		078230C4178DB79100214106 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078230C2178DB79100214106 /* AAMLocalizable.strings */; };
 		17B5C01043A17CF6DA59FC35 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC5C99915597FBF4FE0D /* AAMLocalizable.strings */; };
 		17B5C0723A26BE7674700A54 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C255524CD8278AF05FAB /* AAMLocalizable.strings */; };
 		17B5CF1701433D2E2915F7CE /* FeedbackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD2D93C20C111AC25B07 /* FeedbackTableViewController.m */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		051A7CE4E958428784BEC091 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		078230C3178DB79100214106 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = AAMLocalizable.strings; sourceTree = "<group>"; };
 		17B5C381A98A914B625AEF2F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		17B5C38B6069ED6866C9C8B3 /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = AAMLocalizable.strings; sourceTree = "<group>"; };
 		17B5C6B5FED237AD2069B8A4 /* FeedbackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackTableViewController.h; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078230C1178DB79100214106 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				078230C2178DB79100214106 /* AAMLocalizable.strings */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
 		17B5C7B5887AF2919122A8A0 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +207,7 @@
 				3D0263A314861EE800FBC566 /* AAMFeedbackViewController.m */,
 				17B5CE776AEA0E33AC0ED792 /* ja.lproj */,
 				17B5C7B5887AF2919122A8A0 /* en.lproj */,
+				078230C1178DB79100214106 /* es.lproj */,
 			);
 			path = AAMFeedback;
 			sourceTree = "<group>";
@@ -271,6 +282,7 @@
 			knownRegions = (
 				en,
 				ja,
+				es,
 			);
 			mainGroup = 3D02635314861E3700FBC566;
 			productRefGroup = 3D02635F14861E3700FBC566 /* Products */;
@@ -292,6 +304,7 @@
 				17B5C0723A26BE7674700A54 /* AAMLocalizable.strings in Resources */,
 				17B5C01043A17CF6DA59FC35 /* AAMLocalizable.strings in Resources */,
 				7386D148177D5C78003A3971 /* Storyboard.storyboard in Resources */,
+				078230C4178DB79100214106 /* AAMLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +381,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		078230C2178DB79100214106 /* AAMLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078230C3178DB79100214106 /* es */,
+			);
+			name = AAMLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		17B5C255524CD8278AF05FAB /* AAMLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
