@@ -71,18 +71,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.topics = @[
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsQuestion", @"AAMLocalizable", nil),
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsRequest", @"AAMLocalizable", nil),
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsBugReport", @"AAMLocalizable", nil),
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsMedia", @"AAMLocalizable", nil),
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsBusiness", @"AAMLocalizable", nil),
-        NSLocalizedStringFromTable(@"AAMFeedbackTopicsOther", @"AAMLocalizable", nil)
-    ];
+    if (self.topics == nil) {
+        self.topics = @[
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsQuestion", @"AAMLocalizable", nil),
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsRequest", @"AAMLocalizable", nil),
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsBugReport", @"AAMLocalizable", nil),
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsMedia", @"AAMLocalizable", nil),
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsBusiness", @"AAMLocalizable", nil),
+                        NSLocalizedStringFromTable(@"AAMFeedbackTopicsOther", @"AAMLocalizable", nil)
+                        ];
+    }
 
     self.topicsToSend = [self.topics copy];
     [self updateBackGroundImage];
-
 }
 
 - (void)setBackgroundImage:(UIImage *) backgroundImage {

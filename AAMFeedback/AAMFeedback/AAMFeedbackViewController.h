@@ -14,7 +14,6 @@
 {
     UITextView  *_descriptionTextView;
     UITextField *_descriptionPlaceHolder;
-    NSInteger _selectedTopicsIndex;
     BOOL _isFeedbackSent;
 }
 
@@ -26,6 +25,7 @@
 @property (strong, nonatomic) NSArray *bccRecipients;
 #pragma mark - customize
 @property (strong, nonatomic) UIImage *backgroundImage;
+@property (assign, nonatomic) NSInteger selectedTopicsIndex;
 
 + (BOOL)isAvailable;
 - (id)initWithTopics:(NSArray*)theTopics;
