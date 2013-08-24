@@ -116,7 +116,11 @@
 - (void)viewDidAppear:(BOOL) animated {
     [super viewDidAppear:animated];
     if (_isFeedbackSent) {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
+        [self dismissViewControllerAnimated:YES completion:nil];
+#else
         [self dismissModalViewControllerAnimated:YES];
+#endif
     }
 }
 
@@ -273,7 +277,11 @@
 
 
 - (void)cancelDidPress:(id) sender {
-    [self dismissModalViewControllerAnimated:YES];
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
+        [self dismissViewControllerAnimated:YES completion:nil];
+#else
+        [self dismissModalViewControllerAnimated:YES];
+#endif
 }
 
 - (void)nextDidPress:(id) sender {
@@ -287,7 +295,12 @@
 
     [picker setSubject:[self _feedbackSubject]];
     [picker setMessageBody:[self _feedbackBody] isHTML:NO];
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
+    [self presentViewController:picker animated:YES completion:nil];
+#else
     [self presentModalViewController:picker animated:YES];
+#endif
+
 }
 
 
@@ -314,7 +327,11 @@
                                                                     delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
     }
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_6_0
+    [controller dismissViewControllerAnimated:YES completion:nil];
+#else
     [controller dismissModalViewControllerAnimated:YES];
+#endif
 }
 
 
