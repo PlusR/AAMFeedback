@@ -86,7 +86,11 @@
     NSUInteger n = [cells count];
     for (int i = 0; i < n; i++) {
         UITableViewCell *cell = cells[(NSUInteger)i];
-        cell.textLabel.textColor = [UIColor blackColor];
+        if (@available(iOS 13.0, *)) {
+            cell.textLabel.textColor = [UIColor labelColor];
+        } else {
+            cell.textLabel.textColor = [UIColor blackColor];
+        }
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
 
@@ -95,7 +99,7 @@
     UITableViewCell *cell;
     cell = [self.tableView cellForRowAtIndexPath:path];
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
-    cell.textLabel.textColor = [UIColor colorWithRed:51.0f / 255.0f green:102.0f / 255.0f blue:153.0f / 255.0f alpha:1.0f];
+    cell.textLabel.textColor = [UIColor systemBlueColor];
     [cell setSelected:NO animated:YES];
 }
 
