@@ -253,7 +253,7 @@ static BOOL _alwaysUseMainBundle = NO;
                 self.descriptionPlaceHolderLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin;
                 self.descriptionPlaceHolderLabel.font = [UIFont systemFontOfSize:16];
                 self.descriptionPlaceHolderLabel.text = self.descriptionPlaceHolder;
-                self.descriptionPlaceHolderLabel.textColor = [UIColor lightGrayColor];
+                self.descriptionPlaceHolderLabel.textColor = [UIColor systemGrayColor];
                 self.descriptionPlaceHolderLabel.numberOfLines = 0;
                 self.descriptionPlaceHolderLabel.userInteractionEnabled = NO;
                 [cell.contentView addSubview:self.descriptionPlaceHolderLabel];
@@ -268,7 +268,7 @@ static BOOL _alwaysUseMainBundle = NO;
     switch (indexPath.section) {
         case 0:
             cell.textLabel.text = self.attention;
-            cell.textLabel.textColor = [UIColor redColor];
+            cell.textLabel.textColor = [UIColor systemRedColor];
             cell.textLabel.font = [UIFont systemFontOfSize:14];
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             break;
