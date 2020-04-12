@@ -24,10 +24,6 @@
     self.title = NSLocalizedStringFromTableInBundle(@"AAMFeedbackTopicsTitle",  @"AAMLocalizable", [AAMFeedbackViewController bundle], nil);
 }
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
-}
-
 - (void)viewWillAppear:(BOOL) animated {
     [super viewWillAppear:animated];
     [self _updateCellSelection];
@@ -43,10 +39,6 @@
 
 - (void)viewDidDisappear:(BOOL) animated {
     [super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation) interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - Table view data source

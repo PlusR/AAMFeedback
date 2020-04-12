@@ -141,8 +141,7 @@ static BOOL _alwaysUseMainBundle = NO;
 }
 
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
+- (void)dealloc {
     self.descriptionPlaceHolder = nil;
     self.descriptionTextView = nil;
 }
@@ -160,11 +159,6 @@ static BOOL _alwaysUseMainBundle = NO;
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - Table view data source
