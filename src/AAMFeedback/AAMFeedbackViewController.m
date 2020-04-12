@@ -15,25 +15,10 @@ static BOOL _alwaysUseMainBundle = NO;
 
 @interface AAMFeedbackViewController ()
 
-@property(nonatomic, strong) UITextView *descriptionTextView;
+@property (nonatomic) UITextView *descriptionTextView;
 
-@property(nonatomic, strong) UILabel *descriptionPlaceHolderLabel;
+@property (nonatomic) UILabel *descriptionPlaceHolderLabel;
 
-- (NSString *)_platformString;
-
-- (NSString *)_feedbackSubject;
-
-- (NSString *)_feedbackBody;
-
-- (NSString *)_appName;
-
-- (NSString *)_appVersion;
-
-- (NSString *)_selectedTopic;
-
-- (NSString *)_selectedTopicToSend;
-
-- (void)_updatePlaceholder;
 @end
 
 
@@ -151,14 +136,6 @@ static BOOL _alwaysUseMainBundle = NO;
     [self _updateNavigation];
     [self _updatePlaceholder];
     [self.tableView reloadData];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
 }
 
 #pragma mark - Table view data source

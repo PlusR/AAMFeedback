@@ -13,26 +13,26 @@
 @interface AAMFeedbackViewController : UITableViewController <UITextViewDelegate, MFMailComposeViewControllerDelegate>
 
 
-@property(strong, nonatomic) NSString *descriptionText;
-@property(strong, nonatomic) NSArray *topics;
-@property(strong, nonatomic) NSArray *topicsToSend;
-@property(strong, nonatomic) NSArray *toRecipients;
-@property(strong, nonatomic) NSArray *ccRecipients;
-@property(strong, nonatomic) NSArray *bccRecipients;
+@property (nonatomic) NSString *descriptionText;
+@property (nonatomic) NSArray *topics;
+@property (nonatomic) NSArray *topicsToSend;
+@property (nonatomic) NSArray *toRecipients;
+@property (nonatomic) NSArray *ccRecipients;
+@property (nonatomic) NSArray *bccRecipients;
 #pragma mark - customize
-@property(strong, nonatomic) UIImage *backgroundImage;
-@property(nonatomic) NSInteger selectedTopicsIndex;
-@property(nonatomic, copy) void (^beforeShowAction)(MFMailComposeViewController *);
+@property (nonatomic) UIImage *backgroundImage;
+@property (nonatomic) NSInteger selectedTopicsIndex;
+@property (nonatomic, copy) void (^beforeShowAction)(MFMailComposeViewController *);
 
-@property(nonatomic, copy) NSString *descriptionPlaceHolder;
-@property(nonatomic, copy) NSString *topicsTitle;
-@property(nonatomic, copy) NSString *attention;
-@property(nonatomic, copy) NSString *tableHeaderAttention;
-@property(nonatomic, copy) NSString *tableHeaderTopics;
-@property(nonatomic, copy) NSString *tableHeaderBasicInfo;
-@property(nonatomic, copy) NSString *mailDidFinishWithError;
-@property(nonatomic, copy) NSString *buttonMail;
-@property(nonatomic, copy) NSString *note;
+@property (nonatomic, copy) NSString *descriptionPlaceHolder;
+@property (nonatomic, copy) NSString *topicsTitle;
+@property (nonatomic, copy) NSString *attention;
+@property (nonatomic, copy) NSString *tableHeaderAttention;
+@property (nonatomic, copy) NSString *tableHeaderTopics;
+@property (nonatomic, copy) NSString *tableHeaderBasicInfo;
+@property (nonatomic, copy) NSString *mailDidFinishWithError;
+@property (nonatomic, copy) NSString *buttonMail;
+@property (nonatomic, copy) NSString *note;
 
 - (instancetype)initWithTopics:(NSArray *) theTopics;
 

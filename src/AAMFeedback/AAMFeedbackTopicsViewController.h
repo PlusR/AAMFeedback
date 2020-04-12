@@ -13,7 +13,7 @@
 
 @property(weak, nonatomic) id delegate;
 @property(nonatomic) NSInteger selectedIndex;
-@property(nonatomic, strong) NSArray *topics;
+@property(nonatomic) NSArray *topics;
 
 @end
 
