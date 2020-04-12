@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078230C4178DB79100214106 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078230C2178DB79100214106 /* AAMLocalizable.strings */; };
-		17B5C01043A17CF6DA59FC35 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC5C99915597FBF4FE0D /* AAMLocalizable.strings */; };
-		17B5C0723A26BE7674700A54 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C255524CD8278AF05FAB /* AAMLocalizable.strings */; };
 		17B5C2354AF2265CFA30411E /* OpenViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C73D3A0E0E36CD67EE50 /* OpenViewControllerTests.m */; };
 		17B5C3719837027B71760F52 /* AcceptanceTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C1E474B89B7EC66D9C0E /* AcceptanceTestHelper.m */; };
 		17B5CF1701433D2E2915F7CE /* FeedbackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD2D93C20C111AC25B07 /* FeedbackTableViewController.m */; };
@@ -24,8 +21,6 @@
 		3D02638314861E3800FBC566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D02636414861E3700FBC566 /* Foundation.framework */; };
 		3D02638B14861E3800FBC566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D02638914861E3800FBC566 /* InfoPlist.strings */; };
 		3D02638E14861E3800FBC566 /* AAMFeedbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D02638D14861E3800FBC566 /* AAMFeedbackTests.m */; };
-		3D0263A414861EE800FBC566 /* AAMFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0263A114861EE800FBC566 /* AAMFeedbackTopicsViewController.m */; };
-		3D0263A514861EE800FBC566 /* AAMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0263A314861EE800FBC566 /* AAMFeedbackViewController.m */; };
 		3D0263B014861F7100FBC566 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0263AF14861F7100FBC566 /* MessageUI.framework */; };
 		3D0263B91486213100FBC566 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D0263B71486213100FBC566 /* AAMLocalizable.strings */; };
 		7386D148177D5C78003A3971 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7386D147177D5C78003A3971 /* Storyboard.storyboard */; };
@@ -35,6 +30,9 @@
 		739B28621820FE7D00AC9D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739B28601820FE7D00AC9D97 /* InfoPlist.strings */; };
 		73D0875C19F0C0AF0053D1AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D0875B19F0C0AF0053D1AD /* Default-568h@2x.png */; };
 		87B1F8C68F5BF078F25A18F6 /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE015B5908C411B37C37FAC /* libPods-Acceptance Tests.a */; };
+		BEE2C1832443057D003286C9 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1852443057D003286C9 /* AAMLocalizable.strings */; };
+		BEE2C18D244309A1003286C9 /* AAMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */; };
+		BEE2C18E244309A1003286C9 /* AAMFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */; };
 		DB5BB933BD3176576630115A /* libPods-AAMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAEEFD94073E5466CF924FD /* libPods-AAMFeedback.a */; };
 /* End PBXBuildFile section */
 
@@ -56,14 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		078230C3178DB79100214106 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = AAMLocalizable.strings; sourceTree = "<group>"; };
 		15D04F37353C995A8D7DB873 /* Pods-AAMFeedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMFeedback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AAMFeedback/Pods-AAMFeedback.debug.xcconfig"; sourceTree = "<group>"; };
 		17B5C1E474B89B7EC66D9C0E /* AcceptanceTestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTestHelper.m; sourceTree = "<group>"; };
 		17B5C381A98A914B625AEF2F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		17B5C38B6069ED6866C9C8B3 /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = AAMLocalizable.strings; sourceTree = "<group>"; };
 		17B5C6B5FED237AD2069B8A4 /* FeedbackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackTableViewController.h; sourceTree = "<group>"; };
 		17B5C73D3A0E0E36CD67EE50 /* OpenViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenViewControllerTests.m; sourceTree = "<group>"; };
-		17B5C8DD1936E5FE45D74E45 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = AAMLocalizable.strings; sourceTree = "<group>"; };
 		17B5CBFCBC382786415697D1 /* AcceptanceTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcceptanceTestHelper.h; sourceTree = "<group>"; };
 		17B5CD2D93C20C111AC25B07 /* FeedbackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackTableViewController.m; sourceTree = "<group>"; };
 		3D02635E14861E3700FBC566 /* AAMFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAMFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,10 +78,6 @@
 		3D02638A14861E3800FBC566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D02638C14861E3800FBC566 /* AAMFeedbackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackTests.h; sourceTree = "<group>"; };
 		3D02638D14861E3800FBC566 /* AAMFeedbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackTests.m; sourceTree = "<group>"; };
-		3D0263A014861EE800FBC566 /* AAMFeedbackTopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackTopicsViewController.h; sourceTree = "<group>"; };
-		3D0263A114861EE800FBC566 /* AAMFeedbackTopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackTopicsViewController.m; sourceTree = "<group>"; };
-		3D0263A214861EE800FBC566 /* AAMFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackViewController.h; sourceTree = "<group>"; };
-		3D0263A314861EE800FBC566 /* AAMFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackViewController.m; sourceTree = "<group>"; };
 		3D0263AF14861F7100FBC566 /* MessageUI.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		7386D147177D5C78003A3971 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		739B28591820FE7D00AC9D97 /* Acceptance Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +89,13 @@
 		9DFC337CE7015FA0A09073E5 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2B09D65411B9201EEC48FE0 /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE015B5908C411B37C37FAC /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE2C1842443057D003286C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		BEE2C18624430581003286C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		BEE2C18724430585003286C9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
+		BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackViewController.m; sourceTree = "<group>"; };
+		BEE2C18A2443095A003286C9 /* AAMFeedbackTopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackTopicsViewController.h; sourceTree = "<group>"; };
+		BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackTopicsViewController.m; sourceTree = "<group>"; };
+		BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackViewController.h; sourceTree = "<group>"; };
 		DCBB6A4FA516308FC24FD14B /* Pods-AAMFeedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMFeedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-AAMFeedback/Pods-AAMFeedback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,34 +136,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		078230C1178DB79100214106 /* es.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				078230C2178DB79100214106 /* AAMLocalizable.strings */,
-			);
-			path = es.lproj;
-			sourceTree = "<group>";
-		};
-		17B5C7B5887AF2919122A8A0 /* en.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				17B5CC5C99915597FBF4FE0D /* AAMLocalizable.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		17B5CE776AEA0E33AC0ED792 /* ja.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				17B5C255524CD8278AF05FAB /* AAMLocalizable.strings */,
-			);
-			path = ja.lproj;
-			sourceTree = "<group>";
-		};
 		3D02635314861E3700FBC566 = {
 			isa = PBXGroup;
 			children = (
 				73D0875B19F0C0AF0053D1AD /* Default-568h@2x.png */,
+				BEE2C17D244304F0003286C9 /* src */,
 				3D02636814861E3800FBC566 /* src */,
 				3D02638614861E3800FBC566 /* AAMFeedbackTests */,
 				739B285D1820FE7D00AC9D97 /* Acceptance Tests */,
@@ -173,6 +148,7 @@
 				3D02635F14861E3700FBC566 /* Products */,
 				17B5C381A98A914B625AEF2F /* Podfile */,
 				E6531BEB74BEDCFE3569E694 /* Pods */,
+				BEE2C17C244304EA003286C9 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,7 +179,6 @@
 		3D02636814861E3800FBC566 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				3D02639F14861EE800FBC566 /* AAMFeedback */,
 				3DC003A014869A9C004DF6F5 /* SampleCode */,
 				3D02636914861E3800FBC566 /* Supporting Files */,
 			);
@@ -240,20 +215,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D02639F14861EE800FBC566 /* AAMFeedback */ = {
-			isa = PBXGroup;
-			children = (
-				3D0263A014861EE800FBC566 /* AAMFeedbackTopicsViewController.h */,
-				3D0263A114861EE800FBC566 /* AAMFeedbackTopicsViewController.m */,
-				3D0263A214861EE800FBC566 /* AAMFeedbackViewController.h */,
-				3D0263A314861EE800FBC566 /* AAMFeedbackViewController.m */,
-				17B5CE776AEA0E33AC0ED792 /* ja.lproj */,
-				17B5C7B5887AF2919122A8A0 /* en.lproj */,
-				078230C1178DB79100214106 /* es.lproj */,
-			);
-			path = AAMFeedback;
-			sourceTree = "<group>";
-		};
 		3DC003A014869A9C004DF6F5 /* SampleCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +248,51 @@
 				739B28651820FE7D00AC9D97 /* Acceptance Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE2C17C244304EA003286C9 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3D0263B71486213100FBC566 /* AAMLocalizable.strings */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		BEE2C17D244304F0003286C9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BEE2C1882443095A003286C9 /* AAMFeedback */,
+				BEE2C17F24430550003286C9 /* Feedback */,
+				BEE2C1802443055B003286C9 /* Localizations */,
+			);
+			name = src;
+			path = /Users/akuraru/src/AAMFeedback/src;
+			sourceTree = "<absolute>";
+		};
+		BEE2C17F24430550003286C9 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		BEE2C1802443055B003286C9 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				BEE2C1852443057D003286C9 /* AAMLocalizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		BEE2C1882443095A003286C9 /* AAMFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */,
+				BEE2C18A2443095A003286C9 /* AAMFeedbackTopicsViewController.h */,
+				BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */,
+				BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */,
+			);
+			path = AAMFeedback;
 			sourceTree = "<group>";
 		};
 		E6531BEB74BEDCFE3569E694 /* Pods */ = {
@@ -382,6 +388,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 				es,
@@ -404,10 +411,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0263B91486213100FBC566 /* AAMLocalizable.strings in Resources */,
-				17B5C0723A26BE7674700A54 /* AAMLocalizable.strings in Resources */,
-				17B5C01043A17CF6DA59FC35 /* AAMLocalizable.strings in Resources */,
 				7386D148177D5C78003A3971 /* Storyboard.storyboard in Resources */,
-				078230C4178DB79100214106 /* AAMLocalizable.strings in Resources */,
+				BEE2C1832443057D003286C9 /* AAMLocalizable.strings in Resources */,
 				73D0875C19F0C0AF0053D1AD /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,12 +492,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE2C18D244309A1003286C9 /* AAMFeedbackViewController.m in Sources */,
 				3D02636F14861E3800FBC566 /* main.m in Sources */,
 				3D02637314861E3800FBC566 /* AppDelegate.m in Sources */,
 				3D02637614861E3800FBC566 /* ViewController.m in Sources */,
-				3D0263A414861EE800FBC566 /* AAMFeedbackTopicsViewController.m in Sources */,
-				3D0263A514861EE800FBC566 /* AAMFeedbackViewController.m in Sources */,
 				17B5CF1701433D2E2915F7CE /* FeedbackTableViewController.m in Sources */,
+				BEE2C18E244309A1003286C9 /* AAMFeedbackTopicsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,30 +534,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		078230C2178DB79100214106 /* AAMLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				078230C3178DB79100214106 /* es */,
-			);
-			name = AAMLocalizable.strings;
-			sourceTree = "<group>";
-		};
-		17B5C255524CD8278AF05FAB /* AAMLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17B5C38B6069ED6866C9C8B3 /* ja */,
-			);
-			name = AAMLocalizable.strings;
-			sourceTree = "<group>";
-		};
-		17B5CC5C99915597FBF4FE0D /* AAMLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17B5C8DD1936E5FE45D74E45 /* en */,
-			);
-			name = AAMLocalizable.strings;
-			sourceTree = "<group>";
-		};
 		3D02638914861E3800FBC566 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -575,6 +556,16 @@
 				739B28611820FE7D00AC9D97 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE2C1852443057D003286C9 /* AAMLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE2C1842443057D003286C9 /* en */,
+				BEE2C18624430581003286C9 /* ja */,
+				BEE2C18724430585003286C9 /* es */,
+			);
+			name = AAMLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -658,7 +649,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedback/AAMFeedback-Prefix.pch";
 				INFOPLIST_FILE = "AAMFeedback/AAMFeedback-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artandmobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,7 +667,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedback/AAMFeedback-Prefix.pch";
 				INFOPLIST_FILE = "AAMFeedback/AAMFeedback-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artandmobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
-  s.source_files = 'AAMFeedback/AAMFeedback/*.{h,m}'
-  s.resource_bundles = { 'AAMFeedback' => ['AAMFeedback/AAMFeedback/*.lproj'] }
+  s.ios.deployment_target = '12.0'
+  s.source_files = 'src/AAMFeedback/*.{h,m}'
+  s.resource_bundles = { 'AAMFeedback' => ['src/Localizations/*.lproj'] }
   s.framework = 'MessageUI'
   s.dependency 'UIDeviceIdentifier'
   s.requires_arc = true
