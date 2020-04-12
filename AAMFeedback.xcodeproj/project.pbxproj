@@ -33,6 +33,13 @@
 		BEE2C1832443057D003286C9 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1852443057D003286C9 /* AAMLocalizable.strings */; };
 		BEE2C18D244309A1003286C9 /* AAMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */; };
 		BEE2C18E244309A1003286C9 /* AAMFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */; };
+		BEE2C19924430D03003286C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C19824430D03003286C9 /* AppDelegate.swift */; };
+		BEE2C19B24430D03003286C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C19A24430D03003286C9 /* SceneDelegate.swift */; };
+		BEE2C19D24430D03003286C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C19C24430D03003286C9 /* ViewController.swift */; };
+		BEE2C1A024430D03003286C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C19E24430D03003286C9 /* Main.storyboard */; };
+		BEE2C1A224430D06003286C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1A124430D06003286C9 /* Assets.xcassets */; };
+		BEE2C1A524430D06003286C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1A324430D06003286C9 /* LaunchScreen.storyboard */; };
+		BEE2C1AA24430D26003286C9 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C19024430CBC003286C9 /* FeedbackViewController.swift */; };
 		DB5BB933BD3176576630115A /* libPods-AAMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAEEFD94073E5466CF924FD /* libPods-AAMFeedback.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +103,15 @@
 		BEE2C18A2443095A003286C9 /* AAMFeedbackTopicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackTopicsViewController.h; sourceTree = "<group>"; };
 		BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackTopicsViewController.m; sourceTree = "<group>"; };
 		BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackViewController.h; sourceTree = "<group>"; };
+		BEE2C19024430CBC003286C9 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		BEE2C19624430D03003286C9 /* Feedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE2C19824430D03003286C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEE2C19A24430D03003286C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEE2C19C24430D03003286C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEE2C19F24430D03003286C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE2C1A124430D06003286C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE2C1A424430D06003286C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEE2C1A624430D06003286C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCBB6A4FA516308FC24FD14B /* Pods-AAMFeedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMFeedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-AAMFeedback/Pods-AAMFeedback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +149,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE2C19324430D03003286C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -144,6 +167,7 @@
 				3D02636814861E3800FBC566 /* src */,
 				3D02638614861E3800FBC566 /* AAMFeedbackTests */,
 				739B285D1820FE7D00AC9D97 /* Acceptance Tests */,
+				BEE2C19724430D03003286C9 /* Feedback */,
 				3D02636114861E3700FBC566 /* Frameworks */,
 				3D02635F14861E3700FBC566 /* Products */,
 				17B5C381A98A914B625AEF2F /* Podfile */,
@@ -158,6 +182,7 @@
 				3D02635E14861E3700FBC566 /* AAMFeedback.app */,
 				3D02637F14861E3800FBC566 /* AAMFeedbackTests.octest */,
 				739B28591820FE7D00AC9D97 /* Acceptance Tests.octest */,
+				BEE2C19624430D03003286C9 /* Feedback.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,6 +297,7 @@
 		BEE2C17F24430550003286C9 /* Feedback */ = {
 			isa = PBXGroup;
 			children = (
+				BEE2C19024430CBC003286C9 /* FeedbackViewController.swift */,
 			);
 			path = Feedback;
 			sourceTree = "<group>";
@@ -293,6 +319,20 @@
 				BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */,
 			);
 			path = AAMFeedback;
+			sourceTree = "<group>";
+		};
+		BEE2C19724430D03003286C9 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				BEE2C19824430D03003286C9 /* AppDelegate.swift */,
+				BEE2C19A24430D03003286C9 /* SceneDelegate.swift */,
+				BEE2C19C24430D03003286C9 /* ViewController.swift */,
+				BEE2C19E24430D03003286C9 /* Main.storyboard */,
+				BEE2C1A124430D06003286C9 /* Assets.xcassets */,
+				BEE2C1A324430D06003286C9 /* LaunchScreen.storyboard */,
+				BEE2C1A624430D06003286C9 /* Info.plist */,
+			);
+			path = Feedback;
 			sourceTree = "<group>";
 		};
 		E6531BEB74BEDCFE3569E694 /* Pods */ = {
@@ -365,21 +405,44 @@
 			productReference = 739B28591820FE7D00AC9D97 /* Acceptance Tests.octest */;
 			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
+		BEE2C19524430D03003286C9 /* Feedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE2C1A724430D06003286C9 /* Build configuration list for PBXNativeTarget "Feedback" */;
+			buildPhases = (
+				BEE2C19224430D03003286C9 /* Sources */,
+				BEE2C19324430D03003286C9 /* Frameworks */,
+				BEE2C19424430D03003286C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feedback;
+			productName = Feedback;
+			productReference = BEE2C19624430D03003286C9 /* Feedback.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3D02635514861E3700FBC566 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1140;
 				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Art & Mobile";
 				TargetAttributes = {
 					3D02635D14861E3700FBC566 = {
 						DevelopmentTeam = 667RSF8RJ3;
+						LastSwiftMigration = 1140;
 					};
 					739B28581820FE7D00AC9D97 = {
 						TestTargetID = 3D02635D14861E3700FBC566;
+					};
+					BEE2C19524430D03003286C9 = {
+						CreatedOnToolsVersion = 11.4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -392,6 +455,7 @@
 				en,
 				ja,
 				es,
+				Base,
 			);
 			mainGroup = 3D02635314861E3700FBC566;
 			productRefGroup = 3D02635F14861E3700FBC566 /* Products */;
@@ -401,6 +465,7 @@
 				3D02635D14861E3700FBC566 /* AAMFeedback */,
 				3D02637E14861E3800FBC566 /* AAMFeedbackTests */,
 				739B28581820FE7D00AC9D97 /* Acceptance Tests */,
+				BEE2C19524430D03003286C9 /* Feedback */,
 			);
 		};
 /* End PBXProject section */
@@ -430,6 +495,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				739B28621820FE7D00AC9D97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE2C19424430D03003286C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE2C1A524430D06003286C9 /* LaunchScreen.storyboard in Resources */,
+				BEE2C1A224430D06003286C9 /* Assets.xcassets in Resources */,
+				BEE2C1A024430D03003286C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +593,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE2C19224430D03003286C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE2C19D24430D03003286C9 /* ViewController.swift in Sources */,
+				BEE2C19924430D03003286C9 /* AppDelegate.swift in Sources */,
+				BEE2C19B24430D03003286C9 /* SceneDelegate.swift in Sources */,
+				BEE2C1AA24430D26003286C9 /* FeedbackViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -566,6 +652,22 @@
 				BEE2C18724430585003286C9 /* es */,
 			);
 			name = AAMLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		BEE2C19E24430D03003286C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE2C19F24430D03003286C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE2C1A324430D06003286C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE2C1A424430D06003286C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -666,13 +768,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15D04F37353C995A8D7DB873 /* Pods-AAMFeedback.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = 667RSF8RJ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedback/AAMFeedback-Prefix.pch";
 				INFOPLIST_FILE = "AAMFeedback/AAMFeedback-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artandmobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "src/Feedback/AAMFeedback-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
 				WRAPPER_EXTENSION = app;
@@ -683,13 +790,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCBB6A4FA516308FC24FD14B /* Pods-AAMFeedback.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = 667RSF8RJ3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AAMFeedback/AAMFeedback-Prefix.pch";
 				INFOPLIST_FILE = "AAMFeedback/AAMFeedback-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artandmobile.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "src/Feedback/AAMFeedback-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/\"/** \"${PROJECT_DIR}/\"/**";
 				WRAPPER_EXTENSION = app;
@@ -818,6 +929,75 @@
 			};
 			name = Release;
 		};
+		BEE2C1A824430D06003286C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Feedback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = akuraru.Feedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE2C1A924430D06003286C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Feedback/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = akuraru.Feedback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -853,6 +1033,15 @@
 			buildConfigurations = (
 				739B28681820FE7D00AC9D97 /* Debug */,
 				739B28691820FE7D00AC9D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE2C1A724430D06003286C9 /* Build configuration list for PBXNativeTarget "Feedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE2C1A824430D06003286C9 /* Debug */,
+				BEE2C1A924430D06003286C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
