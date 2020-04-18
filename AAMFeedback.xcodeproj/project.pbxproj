@@ -30,6 +30,7 @@
 		739B28621820FE7D00AC9D97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 739B28601820FE7D00AC9D97 /* InfoPlist.strings */; };
 		73D0875C19F0C0AF0053D1AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D0875B19F0C0AF0053D1AD /* Default-568h@2x.png */; };
 		87B1F8C68F5BF078F25A18F6 /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE015B5908C411B37C37FAC /* libPods-Acceptance Tests.a */; };
+		9A6F9689B59EE6998EE688A7 /* libPods-Feedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5616911BEEFD1A5E16F526BA /* libPods-Feedback.a */; };
 		BEE2C1832443057D003286C9 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1852443057D003286C9 /* AAMLocalizable.strings */; };
 		BEE2C18D244309A1003286C9 /* AAMFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */; };
 		BEE2C18E244309A1003286C9 /* AAMFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */; };
@@ -40,6 +41,9 @@
 		BEE2C1A224430D06003286C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1A124430D06003286C9 /* Assets.xcassets */; };
 		BEE2C1A524430D06003286C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1A324430D06003286C9 /* LaunchScreen.storyboard */; };
 		BEE2C1AA24430D26003286C9 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE2C19024430CBC003286C9 /* FeedbackViewController.swift */; };
+		BEFFF7812449EE7900E72FE9 /* FeedbackTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFF77F2449DA3C00E72FE9 /* FeedbackTopicsViewController.swift */; };
+		BEFFF784244A863900E72FE9 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFFF7822449F74900E72FE9 /* Context.swift */; };
+		BEFFF785244A8E2000E72FE9 /* AAMLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C1852443057D003286C9 /* AAMLocalizable.strings */; };
 		DB5BB933BD3176576630115A /* libPods-AAMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAEEFD94073E5466CF924FD /* libPods-AAMFeedback.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +90,8 @@
 		3D02638C14861E3800FBC566 /* AAMFeedbackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAMFeedbackTests.h; sourceTree = "<group>"; };
 		3D02638D14861E3800FBC566 /* AAMFeedbackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAMFeedbackTests.m; sourceTree = "<group>"; };
 		3D0263AF14861F7100FBC566 /* MessageUI.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5616911BEEFD1A5E16F526BA /* libPods-Feedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Feedback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F066CB9118C452B9A1617B1 /* Pods-Feedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feedback/Pods-Feedback.release.xcconfig"; sourceTree = "<group>"; };
 		7386D147177D5C78003A3971 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		739B28591820FE7D00AC9D97 /* Acceptance Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739B285F1820FE7D00AC9D97 /* Acceptance Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance Tests-Info.plist"; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 		7EAEEFD94073E5466CF924FD /* libPods-AAMFeedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AAMFeedback.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFC337CE7015FA0A09073E5 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2B09D65411B9201EEC48FE0 /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B0431F2FBB6DD4C67CABB6 /* Pods-Feedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feedback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feedback/Pods-Feedback.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE015B5908C411B37C37FAC /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE2C1842443057D003286C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
 		BEE2C18624430581003286C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AAMLocalizable.strings; sourceTree = "<group>"; };
@@ -112,6 +119,8 @@
 		BEE2C1A124430D06003286C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE2C1A424430D06003286C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEE2C1A624430D06003286C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFFF77F2449DA3C00E72FE9 /* FeedbackTopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackTopicsViewController.swift; sourceTree = "<group>"; };
+		BEFFF7822449F74900E72FE9 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		DCBB6A4FA516308FC24FD14B /* Pods-AAMFeedback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMFeedback.release.xcconfig"; path = "Pods/Target Support Files/Pods-AAMFeedback/Pods-AAMFeedback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6F9689B59EE6998EE688A7 /* libPods-Feedback.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +207,7 @@
 				3D02638014861E3800FBC566 /* SenTestingKit.framework */,
 				AEE015B5908C411B37C37FAC /* libPods-Acceptance Tests.a */,
 				7EAEEFD94073E5466CF924FD /* libPods-AAMFeedback.a */,
+				5616911BEEFD1A5E16F526BA /* libPods-Feedback.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -298,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				BEE2C19024430CBC003286C9 /* FeedbackViewController.swift */,
+				BEFFF77F2449DA3C00E72FE9 /* FeedbackTopicsViewController.swift */,
+				BEFFF7822449F74900E72FE9 /* Context.swift */,
 			);
 			path = Feedback;
 			sourceTree = "<group>";
@@ -313,10 +326,10 @@
 		BEE2C1882443095A003286C9 /* AAMFeedback */ = {
 			isa = PBXGroup;
 			children = (
+				BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */,
 				BEE2C1892443095A003286C9 /* AAMFeedbackViewController.m */,
 				BEE2C18A2443095A003286C9 /* AAMFeedbackTopicsViewController.h */,
 				BEE2C18B2443095A003286C9 /* AAMFeedbackTopicsViewController.m */,
-				BEE2C18C2443095A003286C9 /* AAMFeedbackViewController.h */,
 			);
 			path = AAMFeedback;
 			sourceTree = "<group>";
@@ -342,6 +355,8 @@
 				9DFC337CE7015FA0A09073E5 /* Pods-Acceptance Tests.release.xcconfig */,
 				15D04F37353C995A8D7DB873 /* Pods-AAMFeedback.debug.xcconfig */,
 				DCBB6A4FA516308FC24FD14B /* Pods-AAMFeedback.release.xcconfig */,
+				A8B0431F2FBB6DD4C67CABB6 /* Pods-Feedback.debug.xcconfig */,
+				5F066CB9118C452B9A1617B1 /* Pods-Feedback.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -409,6 +424,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEE2C1A724430D06003286C9 /* Build configuration list for PBXNativeTarget "Feedback" */;
 			buildPhases = (
+				CBF421F0F391D39F02E57189 /* [CP] Check Pods Manifest.lock */,
 				BEE2C19224430D03003286C9 /* Sources */,
 				BEE2C19324430D03003286C9 /* Frameworks */,
 				BEE2C19424430D03003286C9 /* Resources */,
@@ -505,6 +521,7 @@
 				BEE2C1A524430D06003286C9 /* LaunchScreen.storyboard in Resources */,
 				BEE2C1A224430D06003286C9 /* Assets.xcassets in Resources */,
 				BEE2C1A024430D03003286C9 /* Main.storyboard in Resources */,
+				BEFFF785244A8E2000E72FE9 /* AAMLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +577,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CBF421F0F391D39F02E57189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feedback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -597,8 +636,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFFF7812449EE7900E72FE9 /* FeedbackTopicsViewController.swift in Sources */,
 				BEE2C19D24430D03003286C9 /* ViewController.swift in Sources */,
 				BEE2C19924430D03003286C9 /* AppDelegate.swift in Sources */,
+				BEFFF784244A863900E72FE9 /* Context.swift in Sources */,
 				BEE2C19B24430D03003286C9 /* SceneDelegate.swift in Sources */,
 				BEE2C1AA24430D26003286C9 /* FeedbackViewController.swift in Sources */,
 			);
@@ -931,6 +972,7 @@
 		};
 		BEE2C1A824430D06003286C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B0431F2FBB6DD4C67CABB6 /* Pods-Feedback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -965,6 +1007,7 @@
 		};
 		BEE2C1A924430D06003286C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F066CB9118C452B9A1617B1 /* Pods-Feedback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;

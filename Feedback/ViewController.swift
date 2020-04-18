@@ -15,23 +15,27 @@ class ViewController: UIViewController {
     }
 
     @IBAction func openModal(_ sender: Any) {
-        let viewController = FeedbackViewController()
-//        vc.toRecipients = @[@"YOUR_CONTACT@email.com"];
-//        vc.ccRecipients = nil;
-//        vc.bccRecipients = nil;
-//        vc.view.backgroundColor = [UIColor whiteColor];
-//        vc.beforeShowAction = ^(MFMailComposeViewController *controller) {
-//            [controller addAttachmentData:[@"text" dataUsingEncoding:NSUTF8StringEncoding] mimeType:@"text/plain" fileName:@"example.text"];
-//        };
-//        vc.descriptionPlaceHolder = @"Please write for details in modal.";
-//        UINavigationController *feedbackNavigation = [[UINavigationController alloc] initWithRootViewController:vc];
-        present(viewController, animated: true)
+        let viewController = createViewController()
+        let feedbackNavigation = UINavigationController(rootViewController: viewController)
+        present(feedbackNavigation, animated: true)
         
     }
     @IBAction func pushAsViewController(_ sender: Any) {
-        let viewController = FeedbackViewController()
+        let viewController = createViewController()
         navigationController?.pushViewController(viewController, animated: true)
     }
-    
+
+    func createViewController() -> UIViewController {
+        let viewController = FeedbackViewController()
+        viewController.context = Context(
+            toRecipients: ["YOUR_CONTACT@email.com"],
+            descriptionPlaceHolder: "Please write for details in modal."
+        )
+        viewController.beforeShowAction = { (controller) in
+            controller.addAttachmentData("text".data(using: .utf8)!, mimeType: "text/plain", fileName: "example.text")
+        }
+        viewController.view.backgroundColor = .white
+        return viewController
+    }
 }
 
